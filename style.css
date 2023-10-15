@@ -7,8 +7,6 @@
 }
 
 .main-wrapper {
-  max-width: 1440px;
-  height: 900px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -90,16 +88,14 @@
           justify-content: space-between;
 }
 
-.left form h2 {
+.left form .text h2 {
   color: var(--text-main, #292731);
   font: 600 30px Poppins;
 }
 
-.left form p {
+.left form .text p {
   color: var(--text-main, #292731);
   font: 400 16px Poppins;
-  line-height: 170%;
-  /* 27.2px */
 }
 
 .left form input {
@@ -165,13 +161,14 @@
 
 .left form .footer {
   color: var(--text-main, #292731);
-  font-family: 500 16px Poppins;
+  font: 500 16px Poppins;
   text-align: center;
 }
 
-.left form b {
+.left form a {
   text-align: center;
   color: #66bce8;
   font: 500 16px Poppins;
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

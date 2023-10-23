@@ -16,9 +16,7 @@ btn.addEventListener("click", () => {
     if (!passInput.value == confPass.value) throw new Error("пароль не верный");
     else {
       data.forEach((el, index) => {
-        data.push(
-          `{id:${index}, email: ${emailInput.value}, password: ${passInput}}`
-        );
+        
       });
     }
   } catch (error) {
